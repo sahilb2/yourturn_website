@@ -1,0 +1,204 @@
+body {
+	position: relative;
+}
+
+
+
+/* NAVBAR */
+
+.navbar {
+	padding: 1%;
+	font-size: 200%;
+}
+
+#navbar-brand-image {
+	padding: 0.5%;
+}
+
+
+
+/* HOME SECTION */
+
+#home-section {
+	padding: 10%;
+	background-image: url(../res/home_background.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#home-content {
+	top: 25%;
+	left: 25%;
+}
+
+#left-home-content {
+
+}
+
+#home-phone-image {
+	height: 600px;
+}
+
+#right-home-content {
+
+}
+
+.yourturn_header {
+	color: white;
+	font-family: helvetica;
+	font-size: 500%;
+}
+
+#ios-app-store-image {
+	height: 105px;
+	/* Align's iOS App Store logo with Google Play logo */
+	padding-left: 24px;
+}
+
+#google-play-image {
+	height: 140px;
+}
+
+
+
+/* ABOUT SECTION */
+
+#about-section {
+	background-color: white;
+	padding-left: 5%;
+	padding-top: 5%;
+}
+
+#about-section-header {
+	font-family: helvetica;
+	font-style: bold;
+	font-size: 600%;
+}
+
+#about-section-content-div {
+	background-color: #F9D01C;
+	padding: 10%;
+}
+
+#about-section-content {
+	font-family: helvetica;
+	font-style: bold;
+	font-size: 500%;
+}
+
+
+
+/* PHILOSOPHY SECTION */
+
+#philosophy-section {
+	background-color: white;
+	padding-left: 5%;
+	padding-top: 5%;
+}
+
+#philosophy-section-header {
+	font-family: helvetica;
+	font-style: bold;
+	font-size: 600%;
+}
+
+#philosophy-section-content {
+	padding: 23%;
+	background-color: #F9D01C;
+	background-image: url(../res/philosophy_image.png);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+
+
+/* TEAM SECTION */
+
+#team-section {
+	background-color: white;
+	padding-left: 5%;
+	padding-top: 5%;
+}
+
+#team-section-title {
+	font-family: helvetica;
+	font-style: bold;
+	font-size: 600%;
+}
+
+#team-section-info {
+	background-color: #F9D01C;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.team_member_box {
+	width: 30rem;
+	border-radius: 20px;
+	float: left;
+	border-style: solid;
+	margin: 1%;
+}
+
+.team_member_box_image {
+	border-radius: 50px;
+	padding: 5%;
+
+	display: block;
+	margin: auto;
+	
+	max-height: 95%;
+	max-width: 95%;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.card-text {
+	text-align: center;
+}
+
+
+
+/* CONTACT SECTION */
+
+#contact-section {
+	text-align: center;
+	padding: 5%;
+}
+
+#media-icons-list {
+	display: inline-block;
+}
+
+.media_icon {
+	height: 120px;
+	width: 120px;
+	margin: 10px;
+	border-radius: 50%;
+	background-color: #F9D01C;
+
+}
+
+#contact-label {
+	text-align: left;
+	font-family: helvetica;
+	font-style: bold;
+	font-size: 300%;
+}
+
+
+
+/* FOOTER SECTION */
+
+#footer-section {
+	padding: 2%;
+	background-color: #F9D01C;
+}
+
+#copyright-label {
+	text-align: center;
+}
