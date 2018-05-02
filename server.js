@@ -50,7 +50,6 @@ app.post('/sendfeedback', function(req, res) {
     var subject = 'YourTurn Website Feedback';
     var text = 'Feedback:\n' + req.body.feedback + '\n';
     var result = sendEmail(subject, text);
-    console.log(result)
     res.sendFile('index.html', {root: __dirname});
 });
 
