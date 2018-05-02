@@ -1,5 +1,5 @@
 {
-  "name": "your_turn_web",
+  "name": "yourturn_website",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -12,14 +12,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sahilb2/your_turn_web.git"
+    "url": "git+https://github.com/sahilb2/yourturn_website.git"
   },
   "author": "sahilb2",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sahilb2/your_turn_web/issues"
+    "url": "https://github.com/sahilb2/yourturn_website/issues"
   },
-  "homepage": "https://github.com/sahilb2/your_turn_web#readme",
+  "homepage": "https://github.com/sahilb2/yourturn_website#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
