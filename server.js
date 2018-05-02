@@ -11,9 +11,7 @@ app.use('/res', express.static(__dirname + '/res'));
 var nodemailer = require('nodemailer');
 
 var transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
-    port: 465,
-    secure: 'true',
+    service: 'gmail',
     auth: {
         user: 'yourturnweb@gmail.com',
         pass: 'yourturn'
