@@ -11,10 +11,12 @@ app.use('/res', express.static(__dirname + '/res'));
 var nodemailer = require('nodemailer');
 
 var transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: 'true',
     auth: {
-        user: 'sahilsbhatt@gmail.com',
-        pass: 'Roadrash123!'
+        user: 'yourturnweb@gmail.com',
+        pass: 'yourturn'
     }
 });
 
@@ -23,7 +25,7 @@ function sendEmail(subjectValue, textValue) {
     var mailList = 'yourturnnav@gmail.com, sahilbhatt@hotmail.com, raycedvarg@gmail.com, justinjbronzell@yahoo.com';
 
     var mailOptions = {
-      from: 'sahilsbhatt@gmail.com',
+      from: 'yourturnweb@gmail.com',
       to: mailList,
       subject: subjectValue,
       text: textValue
