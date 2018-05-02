@@ -20,7 +20,7 @@ body {
 /* HOME SECTION */
 
 #home-section {
-	padding: 10%;
+	padding: 15%;
 	background-image: url(../res/home_background.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -36,7 +36,7 @@ body {
 }
 
 #home-phone-image {
-	height: 600px;
+	height: 40em;
 }
 
 #right-home-content {
@@ -46,7 +46,7 @@ body {
 .yourturn_header {
 	color: white;
 	font-family: helvetica;
-	font-size: 500%;
+	font-size: 400%;
 }
 
 #ios-app-store-image {
@@ -72,7 +72,7 @@ body {
 #about-section-header {
 	font-family: helvetica;
 	font-style: bold;
-	font-size: 600%;
+	font-size: 300%;
 }
 
 #about-section-content-div {
@@ -83,7 +83,7 @@ body {
 #about-section-content {
 	font-family: helvetica;
 	font-style: bold;
-	font-size: 500%;
+	font-size: 300%;
 }
 
 
@@ -99,7 +99,7 @@ body {
 #philosophy-section-header {
 	font-family: helvetica;
 	font-style: bold;
-	font-size: 600%;
+	font-size: 300%;
 }
 
 #philosophy-section-content {
@@ -123,7 +123,7 @@ body {
 #team-section-title {
 	font-family: helvetica;
 	font-style: bold;
-	font-size: 600%;
+	font-size: 300%;
 }
 
 #team-section-info {
