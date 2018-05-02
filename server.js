@@ -11,10 +11,10 @@ app.use('/res', express.static(__dirname + '/res'));
 var nodemailer = require('nodemailer');
 
 var transporter = nodemailer.createTransport({
-    service: 'smtp.mailgun.org',
+    service: 'gmail',
     auth: {
-        user: 'postmaster@sandboxb729698aa15646cfbc485b23a4d1152b.mailgun.org',
-        pass: 'b8beba664e5dc6b5062081179c2543ad-116e1e4d-e5bbc7cc'
+        user: 'sahilsbhatt@gmail.com',
+        pass: 'Roadrash123!'
     }
 });
 
@@ -23,7 +23,7 @@ function sendEmail(subjectValue, textValue) {
     var mailList = 'yourturnnav@gmail.com, sahilbhatt@hotmail.com, raycedvarg@gmail.com, justinjbronzell@yahoo.com';
 
     var mailOptions = {
-      from: 'postmaster@sandboxb729698aa15646cfbc485b23a4d1152b.mailgun.org',
+      from: 'sahilsbhatt@gmail.com',
       to: mailList,
       subject: subjectValue,
       text: textValue
